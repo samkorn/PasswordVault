@@ -1,0 +1,6 @@
+# IDE project files
+.idea/
+
+# Vault file and directory created by the program
+vault.json
+secure/
