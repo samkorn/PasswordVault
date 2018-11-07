@@ -144,7 +144,7 @@ class PasswordVault:
             return False
         else:
             print("That is not a valid action. Please try again.")
-            self.get_secure_action()
+            self.get_secure_action(username, password)
 
     @staticmethod
     def create_secure_file(username, password):
